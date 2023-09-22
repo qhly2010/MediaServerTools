@@ -10,7 +10,7 @@ class tmdb:
     client = None
 
     def __init__(
-        self, key: str, host: str = "https://api.themoviedb.org/3", proxy: str = None
+        self, key: str, host: str = "https://api.tmdb.org/3", proxy: str = None
     ) -> None:
         """
         :param key apikey
